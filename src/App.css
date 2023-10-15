@@ -1,0 +1,99 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+.todo-uncompleted {
+    height: 68px;
+    width: 400px;
+    /* padding: 16px 32px; */
+    font: 24px Poppins, sans-serif;
+    background-color: maroon;
+    border-radius: 15px;
+    margin-top: 5px;
+
+    cursor: pointer;
+
+    /* Para centrar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-completed {
+    height: 68px;
+    width: 400px;
+    /* padding: 16px 32px; */
+    font: 24px Poppins, sans-serif;
+    background-color: azure;
+    border-radius: 15px;
+    margin-top: 5px;
+
+    cursor: pointer;
+
+    text-decoration: line-through;
+
+    /* Para centrar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonDelete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    height: 30px;
+    width: 480px;
+
+    border-radius: 15px;
+    margin-top: 5px;
+}
